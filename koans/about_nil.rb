@@ -18,7 +18,7 @@ class AboutNil < EdgeCase::Koan
     #  in a sandbox and catching the error class into the exception
     #  variable.  
     #
-    exception = assert_raise(___) do
+    exception = assert_raise(nil) do
       nil.some_method_nil_doesnt_know_about
     end
     
